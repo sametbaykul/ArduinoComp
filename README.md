@@ -10,14 +10,14 @@ REQUIREMENTS
 * Beginner level of C++
 
 --------------------------------------------------
-USAGE:
+USAGE
 --------------------------------------------------
 
 * You can use each class individually (All of them are seperate doc)
 * You can try each class on Autodesk TinkerCad which is a free online circuit prototyping tool.
 
 --------------------------------------------------
-DEMO:
+DEMO
 --------------------------------------------------
 
 1. Running LED's
