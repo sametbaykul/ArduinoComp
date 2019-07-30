@@ -17,9 +17,7 @@ Demo:
 1. Running LED's
 
 Classes       : LED, Button, Timer
-
 Info          : Introduction to repository by using basic components 
-
 Link          : https://www.tinkercad.com/things/aNMhpOvUyjR-1-running-led
 
 2. LED Game
