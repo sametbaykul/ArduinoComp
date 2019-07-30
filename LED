@@ -1,0 +1,41 @@
+// --------------------------------------------------
+// Led Class
+// v.1.0.0
+// by Samet Baykul
+// --------------------------------------------------
+
+class Led
+{
+  public:
+  	LeLd(int Pin);
+  	void LIGHT(bool State);
+    void BLINK(int OpeningDuration, int ClosingDuration);
+    bool state;
+    unsigned long last_update;
+  private:
+    int _pin;
+};
+
+Led::Led(int pin)
+{
+  pinMode(pin, OUTPUT);
+  _pin = pin;
+}
+void Led::LIGHT(bool State)
+{
+  state = State;
+  digitalWrite(_pin, State);
+  
+  last_update = millis();
+}
+void Led::BLINK(int OpeningDuration = 200, int ClosingDuration = 200)
+{
+  if (!state && millis() - last_update > OpeningDuration) 
+  {
+    LIGHT(true);
+  }
+  if (state && millis() - last_update > ClosingDuration) 
+  {
+    LIGHT(false);
+  }
+}
