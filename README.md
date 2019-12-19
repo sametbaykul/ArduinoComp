@@ -7,7 +7,7 @@ REQUIREMENTS
 
 * Basic OOP
 * Beginner level of Arduino
-* Beginner level of C++
+* Beginner level of C/C++
 
 --------------------------------------------------
 USAGE
